@@ -1,5 +1,9 @@
 @import "tailwindcss";
+@import "tailwindcss/preflight";
+@tailwind utilities;
 
+/* RippleUI base styles */
+@import 'rippleui/dist/index.css';
 :root {
   --background: #ffffff;
   --foreground: #171717;
